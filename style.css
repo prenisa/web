@@ -1,0 +1,447 @@
+*{
+
+    padding: 0px;
+    margin: 0;
+    box-sizing: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}   
+.navbar-brand{
+ font-size:2rem ;
+color: rgb(14, 10, 10);
+font-family: cursive;
+font-style: italic;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0px;
+    display: flex;
+    font-family: cursive;
+    font-weight: 700;
+    
+}
+.nav-link:hover{
+    color: rgb(9, 9, 9);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(246, 26, 92);
+    margin-right: -30px;
+    font-family: cursive;
+ 
+    
+
+}
+.btn5{
+    height: 40px;
+    width: 20%;
+    border: none;
+    background-color: rgb(246, 26, 92);
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    border-radius: 80px; 
+    
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    background:  solid rgb(246, 26, 92);
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    border-radius: 80px; 
+    
+}
+.btn0:hover{
+    background:  rgb(246, 26, 92);
+    color: white;
+   
+}
+.main{
+    background: url(https://images3.alphacoders.com/109/thumb-1920-1097924.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    
+}
+.main h1{
+    font-size: 4rem;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 700;
+
+} 
+.btn1{
+    height:200px;
+    width: 300%;
+    border: none;
+    outline: none;
+    background-color:  rgb(246, 26, 92);
+    color: white;
+    font-weight: 800;
+    border-radius : 70px; 
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color:  rgb(246, 26, 92);
+    color: white;
+    transition: color 0.5s;
+}
+.trending-section {
+    background-color: #f9f9f9;
+}
+
+
+.trending-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+}
+trending-subtitle {
+    font-size: 1.2rem;
+    color: red;
+    font-style: italic;
+}
+* Product Card */
+.product-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.product-card h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.product-card .price {
+    font-size: 1rem;
+    color: gray;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+body {
+    font-family: 'cursive', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #f9f9f9;
+}
+
+/* Section Titles */
+.welcome-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcome-subtitle {
+    font-size: 1.2rem;
+    color: red;
+    font-style: italic;
+}
+.info-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-card img {
+    
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.info-card h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.info-card p {
+    font-size: 0.95rem;
+    color: gray;
+}
+
+/* Hover Effect */
+.info-card:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: -1px 2px 5px 5px rgba(212,85,93,1);
+-moz-box-shadow: -1px 2px 5px 5px rgba(212,85,93,1);
+box-shadow: -1px 2px 5px 5px rgba(212,85,93,1);
+}
+
+
+
+/* Submit Button */
+.submit {
+    background-color: rgb(246, 26, 92);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 70px;
+    text-decoration: none;
+    transition: 0.3s;
+   text-transform: uppercase;
+    
+}
+
+
+.submit:hover {
+    background-color: rgb(246, 26, 92);
+}
+
+/* General Styling */
+body {
+    font-family: 'cursive', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+/* Product Section */
+.product-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Section Titles */
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.product-subtitle {
+    font-size: 1.2rem;
+    color: red;
+    font-style: italic;
+}
+
+/* Product Cards */
+.product-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.product-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.product-card h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.product-card .price {
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 0px 5px 10px rgba(23,9,23,1);
+-moz-box-shadow: -1px 0px 5px 10px rgba(23,9,23,1);
+box-shadow: -1px 0px 5px 10px rgba(23,9,23,1);
+}
+
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #d3d3d3;
+    padding: 80px 0;
+    
+}
+
+/* Hero Text */
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Cursive', sans-serif;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.hero-btn {
+    background-color:rgb(246, 26, 92);
+    color: rgb(147, 31, 31);
+    font-size: 1rem;
+    padding: 12px 25px;
+    border-radius: 80px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hero-btn:hover {
+    background-color: rgb(246, 26, 92);;
+}
+
+/* Hero Image */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+    background-size: cover;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/* Contact Section */
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+/* Heading Styles */
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-subtitle {
+    font-size: 1.2rem;
+    color: #e91e63;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.contact-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Form Fields */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Submit Button */
+.contact-btn {
+    background-color: #e91e63;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    background-color: #c2185b;
+}
+.news{
+    background-color:black;
+    color:white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    border: 2px solid white;
+    font-weight: 700;
+    margin-left: -10px;
+    
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    background: black;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+
+}
+.news ::placeholder{
+    color: white;
+
+}
+.news p{
+    margin: 0;
+}
+
+
+.social-icon {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.social-button {
+    border-radius: 50%;
+    background-color: #3b5998; /* Default Facebook color */
+    color: white;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social-button.instagram {
+    background-color: #e4405f; /* Instagram color */
+}
