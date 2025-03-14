@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+
+        }
+        .card{
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 20rem;
+            height: 43rem;;
+        }
+        .card img{
+            padding: 10px;
+            width: 15rem;
+            height: 30rem;
+        }
+        .btn button{
+            transition: all 1s;
+            border:none;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 3px 3px;
+        }
+        .btn button:hover{
+            background-color: white;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://natashaisabookjunkie.com/wp-content/uploads/Reminders-of-Him.jpg" alt="image">
+            <h1>Fictional Book</h1>
+            <p>This book is about the girl who faces lots of hardships in her life  yet never gives up and finds her unconditional love</p>
+            <div class="btn">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="https://images.thenile.io/r1000/9781399608992.jpg" alt="image">
+            <h1>Motivational Books</h1>
+            <p>This is the real life story of one of the fighter who never gives up and achieves her goal</p>
+            <div class="btn">
+                <button>Read More</button>
+            </div>
+        </div>
+        </div>
+
+    
+</body>
+</html>
